@@ -1,0 +1,68 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 2rem 0;
+}
+.btn-primary {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    background-color: #d05663;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #d05663;
+    border: 1px solid #d05663;
+}
+
+/* Nav Styles */
+.navbar {
+    justify-content: space-around;
+}
+.navbar-custom {
+    background-color: #748b65;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #c3cbd6;
+}
+.active {
+    color: #2a403d;
+    border-bottom: 2px solid #2a403d;
+}
+
+/* Form Styles */
+form {
+    margin: 2rem 0;
+}
+#FormControlTextarea {
+    height: 10rem;
+}
+.form-group {
+    padding-left: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #748b65;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+footer img {
+    margin-bottom: 2rem;
+}
+footer i {
+    font-size: 3rem;
+    margin: 1rem;
+}
+footer i:hover {
+    color: #2a403d;
+    cursor: pointer;
+}
