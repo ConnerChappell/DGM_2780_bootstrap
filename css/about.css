@@ -1,0 +1,134 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', sans-serif;
+    margin: 2rem 0;
+}
+.btn-primary {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    background-color: #d05663;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #fff;
+    color: #d05663;
+    border: 1px solid #d05663;
+}
+
+/* Nav Styles */
+.navbar {
+    justify-content: space-around;
+}
+.navbar-custom {
+    background-color: #748b65;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #c3cbd6;
+}
+.active {
+    color: #2a403d;
+    border-bottom: 2px solid #2a403d;
+}
+
+/* Top Facility Styles */
+#facility .col-md-4 {
+    background-color: #c3cbd6;
+}
+#facility .card-body {
+    padding-top: 8rem;
+}
+#facility h4 {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
+
+/* Why Us Styles */
+#why-us .col-md-8 {
+    margin-top: 2rem;
+    padding: 0;
+}
+#why-us .col-md-4 {
+    margin-top: 2rem;
+    padding: 0;
+}
+#why-us .col-md-8 h2, #why-us .col-md-8 p {
+    padding-left: 4rem;
+}
+#why-us .card-body {
+    background-color: #2a403d;
+    color: #fff;
+    border-top: 8px solid #748b65;
+}
+
+/* Quality Service and Hours Styles */
+#quality-professionalism {
+    padding-left: 4rem;
+}
+#quality-professionalism h2, #quality-professionalism h4 {
+    margin-bottom: 0;
+}
+#hours {
+    padding-right: 4rem;
+    background-color: #c3cbd6;
+    border-top: 8px solid #d05663;
+}
+.parallel {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #2a403d;
+    margin-bottom: .5rem;
+}
+
+/* Head Professionals and Recent News Styles */
+#accordion-professionals {
+    padding-left: 4rem;
+}
+h2.mb-0 {
+    margin-top: 0;
+}
+h2.mb-0 button {
+    color: #d05663;
+}
+h2.mb-0 button:hover {
+    color: #748b65;
+}
+form {
+    padding-left: 4rem;
+}
+#signup-button {
+    margin-left: 3rem;
+}
+.news a {
+    margin-bottom: 0;
+    color: #d05663;
+}
+.news small {
+    margin-bottom: 1rem;
+}
+
+
+/* Footer Styles */
+footer {
+    background-color: #748b65;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+footer img {
+    margin-bottom: 2rem;
+}
+footer i {
+    font-size: 3rem;
+    margin: 1rem;
+}
+footer i:hover {
+    color: #2a403d;
+    cursor: pointer;
+}
