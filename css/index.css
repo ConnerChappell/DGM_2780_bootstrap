@@ -1,0 +1,195 @@
+body {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 300;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', sans-serif;
+}
+button {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+}
+
+/* Nav Styles */
+.navbar {
+    justify-content: space-around;
+}
+.navbar-custom {
+    background-color: #748b65;
+}
+.nav-link {
+    color: #fff;
+    font-weight: 600;
+}
+.nav-link:hover {
+    color: #c3cbd6;
+}
+.active {
+    color: #2a403d;
+    border-bottom: 2px solid #2a403d;
+}
+
+/* Hero Carousel Styles */
+#hero-carousel .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+#hero-carousel .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+#hero-carousel .carousel-item {
+    height: 35rem;
+}
+#hero-carousel .carousel-item img{
+    height: 100%;
+    width: 100%;
+}
+#hero-carousel .carousel-caption {
+    bottom: 7rem;
+    text-shadow: 2px 2px 5px #000000;
+}
+#hero-carousel .carousel-caption h1 {
+    font-size: 4.5rem;
+}
+#hero-carousel .carousel-caption p {
+    font-size: 2rem;
+}
+#hero-carousel .carousel-caption button {
+    margin-top: 2rem;
+    background-color: #d05663;
+    border: none;
+    font-weight: 600;
+}
+#hero-carousel .carousel-caption button:hover {
+    background-color: #fff;
+    color: #d05663;
+}
+
+/* 4 Card Styles */
+.four-cards {
+    transition: all .2s ease-in-out;
+}
+.four-cards:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card {
+    text-align: center;
+}
+.card-img-overlay {
+    top: auto;
+    bottom: 0;
+}
+
+/* Brief About Styles */
+.card-body {
+    text-align: left;
+    padding: 2rem 2rem 5.85rem 2rem;
+}
+.card-body button {
+    background-color: #d05663;
+    border: none;
+    font-weight: 600;
+}
+.card-body button:hover {
+    background-color: #fff;
+    color: #d05663;
+}
+#brief-about {
+    background-color: #c3cbd6;
+}
+
+/* Services Styles */
+.services {
+    text-align: center;
+    margin: 2rem 1rem;
+}
+
+/* Call Now Styles */
+#call-now-container {
+    background-color: #d05663;
+    width: 100%;
+}
+#call-now-container h2 {
+    font-family: 'Gothic A1', sans-serif;
+    font-weight: 600;
+    color: #c3cbd6;
+}
+#call-now-container h1 {
+    /* border-bottom: 2px solid #2a403d; */
+    padding-bottom: 1.5rem;
+}
+#call-now-container .call-now {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    padding: 2rem;
+}
+
+/* Make Appointment and Reviews Styles */
+#appointment-review-row {
+    margin-bottom: 2rem;
+}
+#appointment-review-row h1 {
+    color: #fff;
+}
+#appointment {
+    background-color: #748b65;
+    color: #fff;
+    padding: 2rem;
+}
+#appointment button {
+    background-color: #d05663;
+    border: none;
+    font-weight: 600;
+}
+#appointment button:hover {
+    background-color: #fff;
+    color: #d05663;
+}
+#reviews {
+    background-color: #2a403d;
+    padding: 2rem;
+}
+
+/* Stay in Touch Styles */
+#stay-in-touch {
+    text-align: center;
+}
+#stay-in-touch h3 {
+    margin-bottom: 2rem;
+}
+#stay-in-touch button {
+    background-color: #d05663;
+    border: none;
+    font-weight: 600;
+}
+#stay-in-touch button:hover {
+    background-color: #fff;
+    color: #d05663;
+    border: 1px solid #d05663;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #748b65;
+    color: #fff;
+    margin-top: 2rem;
+    padding: 2rem;
+}
+footer img {
+    margin-bottom: 2rem;
+}
+footer i {
+    font-size: 3rem;
+    margin: 1rem;
+}
+footer i:hover {
+    color: #2a403d;
+    cursor: pointer;
+}
