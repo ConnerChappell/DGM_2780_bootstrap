@@ -133,6 +133,7 @@ button {
 
 /* Make Appointment and Reviews Styles */
 #appointment-review-row {
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
 #appointment-review-row h1 {
