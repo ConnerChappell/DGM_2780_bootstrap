@@ -5,4 +5,6 @@ My Site: https://dgm2780-bootstrap-calm-mind.netlify.app/
 
 ### Greensock Animation
 
-Greensock animation was added to the logo and nav items 
+Greensock animation was added to the logo and nav items
+* Logo fades in
+* Nav - items move up into place after logo fades in
